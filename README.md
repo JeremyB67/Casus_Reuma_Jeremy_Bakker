@@ -27,9 +27,10 @@
 
 ## 2. 📝Introductie
 
-Reumatoïde artritis (RA) is een chronische systemische auto-immuunziekte die voornamelijk de gewrichten aantast. De exacte oorzaak van de ziekte is nog niet volledig opgehelderd, maar er wordt aangenomen dat een combinatie van genetische aanleg, omgevingsfactoren en ontregeling van het immuunsysteem een belangrijke rol speelt [(Gabriel, 2001)](https://doi.org/10.1016/s0889-857x(05)70201-5). Een kenmerkend verschijnsel van RA is synovitis, een ontsteking van het gewrichtsslijmvlies (synovium), die kan leiden tot progressieve gewrichtsschade en functieverlies [(Radu & Bungau, 2021)](https://doi.org/10.3390/cells10112857).
+Reumatoïde artritis (RA) is een chronische systemische auto-immuunziekte die wereldwijd naar schatting 1% van de bevolking treft, met in Nederland circa 280.000 patiënten en jaarlijks ruim 11.000 nieuwe diagnoses (Volksgezondheid en Zorg, 2024). De exacte oorzaak van de ziekte is nog niet volledig opgehelderd, maar er wordt aangenomen dat een combinatie van genetische aanleg, omgevingsfactoren en ontregeling van het immuunsysteem een belangrijke rol speelt [(Gabriel, 2001)](https://doi.org/10.1016/s0889-857x(05)70201-5). Een kenmerkend verschijnsel van RA is synovitis, een ontsteking van het gewrichtsslijmvlies (synovium), die kan leiden tot progressieve gewrichtsschade en functieverlies [(Radu & Bungau, 2021)](https://doi.org/10.3390/cells10112857). Ondanks de omvang van het probleem is er nog geen genezende behandeling beschikbaar; bestaande therapieën richten zich vooral op het onderdrukken van symptomen en ziekteactiviteit [(Majithia & Geraci, 2007)](https://doi.org/10.1016/j.amjmed.2007.04.005).
 
-De diagnose van RA wordt doorgaans gesteld op basis van klinische symptomen en de aanwezigheid van specifieke autoantilichamen, waaronder anti-cyclische gecitrullineerde peptiden (ACPA). Vroege detectie van de ziekte is van groot belang, aangezien tijdige behandeling de progressie van gewrichtsschade kan vertragen. Hoewel er momenteel geen genezende behandeling beschikbaar is, kunnen verschillende therapieën de symptomen verminderen en de ziekteactiviteit onder controle houden [(Majithia & Geraci, 2007)](https://doi.org/10.1016/j.amjmed.2007.04.005).
+Om de onderliggende ziektemechanismen beter te begrijpen, wordt RNA-sequencing (RNA-seq) steeds vaker ingezet. Deze techniek brengt de volledige genexpressie van een weefsel in kaart en maakt het mogelijk om te bepalen welke genen actiever of juist minder actief zijn bij een bepaalde aandoening, en welke biologische processen en signaalroutes daarbij betrokken zijn. Eerder RNA-seq-onderzoek aan synoviaal weefsel van RA-patiënten liet al zien dat differentieel tot expressie gebrachte genen sterk verrijkt zijn voor immuun- en ontstekingsgerelateerde processen, waaronder cytokine-receptorinteracties en chemokinesignalering [(Zhang et al., 2022)](https://doi.org/10.3389/fmed.2022.799440). Dit type onderzoek biedt dus een concreet aanknopingspunt om de moleculaire basis van RA verder te ontrafelen.
+
 
 In dit onderzoek staat de vraag centraal welke transcriptomische verschillen bestaan tussen patiënten met reumatoïde artritis (RA) en gezonde controles, en welke biologische processen en signaalroutes hierbij betrokken zijn. Om deze vraag te beantwoorden wordt eerst onderzocht hoe de genexpressieprofielen van beide groepen van elkaar verschillen. Vervolgens wordt bepaald welke genen significant differentieel geëxpresseerd zijn tussen RA-patiënten en gezonde controles. Daarnaast wordt onderzocht welke biologische processen verrijkt zijn onder deze differentieel geëxpresseerde genen. Ten slotte wordt geanalyseerd welke signaalroutes geassocieerd zijn met de gevonden genexpressieveranderingen.
 
@@ -547,6 +548,15 @@ clusterProfiler: An R package for comparing biological themes among gene cluster
 <i>OMICS: A Journal of Integrative Biology, 16</i>(5), 284–287.
 <a href="https://doi.org/10.1089/omi.2011.0118" target="_blank">
 https://doi.org/10.1089/omi.2011.0118
+</a>
+</p>
+
+<p>
+Zhang, R., Jin, Y., Chang, C., Xu, L., Bian, Y., Shen, Y., Sun, Y., Sun, S., Schrodi, S. J., Guo, S., &amp; He, D. (2022).
+RNA-seq and network analysis reveal unique chemokine activity signatures in the synovial tissue of patients with rheumatoid arthritis.
+<i>Frontiers in Medicine, 9</i>, 799440.
+<a href="https://doi.org/10.3389/fmed.2022.799440" target="_blank">
+https://doi.org/10.3389/fmed.2022.799440
 </a>
 </p>
 
