@@ -1,0 +1,34 @@
+<p>
+Tijdens dit transcriptomics-project is GitHub gebruikt als platform voor het beheren van onderzoeksgegevens, scripts en documentatie. 
+Een gestructureerde manier van databeheer is belangrijk binnen onderzoek, omdat het ervoor zorgt dat gegevens overzichtelijk blijven, analyses reproduceerbaar zijn en gemaakte keuzes tijdens het onderzoek kunnen worden nagegaan.
+</p>
+
+<p>
+Binnen de repository is een vaste mappenstructuur gebruikt om de verschillende onderdelen van het project overzichtelijk te organiseren. 
+De map <code>data/raw</code> bevat de oorspronkelijke RNA-seq dataset die gebruikt is voor de analyse. 
+De verwerkte datasets die tijdens de analyse in R zijn gegenereerd, zijn opgeslagen in <code>data/processed</code>. 
+Hierdoor bleef duidelijk welke bestanden afkomstig waren uit de oorspronkelijke dataset en welke bestanden voortkwamen uit bewerkingen tijdens de analyse.
+</p>
+
+<p>
+De gebruikte R-scripts voor de transcriptomics-analyse zijn opgeslagen in de map <code>scripts</code>. 
+Hierin zijn de verschillende stappen van de workflow uitgevoerd, waaronder read mapping met het Rsubread package, genkwantificatie met featureCounts, differentiële genexpressieanalyse met DESeq2 en de daaropvolgende GO- en KEGG pathway-analyses. 
+De resultaten van deze analyses, zoals figuren van GO-analyse, KEGG-analyse en Pathview visualisaties, zijn opgeslagen in de map <code>resultaten</code>.
+</p>
+
+<p>
+Naast de opslag van data en scripts is documentatie bijgehouden om de reproduceerbaarheid van het onderzoek te ondersteunen. 
+In het README-bestand is de achtergrond van het onderzoek naar reumatoïde artritis beschreven, samen met de gebruikte dataset, analysemethode, resultaten en conclusie. 
+Hierdoor wordt niet alleen weergegeven welke analyses zijn uitgevoerd, maar ook waarom deze stappen zijn gekozen en hoe de resultaten geïnterpreteerd kunnen worden.
+</p>
+
+<p>
+GitHub is daarnaast gebruikt voor versiebeheer door middel van commits. 
+Hierdoor konden wijzigingen binnen het project worden bijgehouden en bleef inzichtelijk welke aanpassingen gedurende het proces zijn uitgevoerd. 
+Dit maakt het mogelijk om eerdere versies terug te vinden en draagt bij aan een controleerbare en reproduceerbare onderzoeksworkflow.
+</p>
+
+<p>
+Door gebruik te maken van een duidelijke mappenstructuur, versiebeheer en uitgebreide documentatie zijn de onderzoeksgegevens en scripts op een efficiënte en gestructureerde manier beheerd. 
+Hierdoor bleef de volledige RNA-seq analyseworkflow overzichtelijk en konden de resultaten op een reproduceerbare manier worden verkregen.
+</p>
